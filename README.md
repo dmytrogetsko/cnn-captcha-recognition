@@ -23,7 +23,7 @@
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/cnn-captcha-recognition.git
+git clone https://github.com/dmytrogetsko/cnn-captcha-recognition
 cd cnn-captcha-recognition
 ```
 
