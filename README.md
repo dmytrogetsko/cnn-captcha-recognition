@@ -12,12 +12,6 @@
 
 ---
 
-## 🧠 Example Prediction
-
-![Prediction Example](assets/example_output.png)
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
