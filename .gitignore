@@ -37,11 +37,7 @@ htmlcov/
 .pytest_cache/
 
 # Captcha images/output
-*.png
-*.jpg
-*.jpeg
-*.bmp
-*.gif
+samples/
 
 # Model files
 *.h5

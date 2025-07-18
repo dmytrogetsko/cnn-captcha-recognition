@@ -14,7 +14,7 @@
 
 ## 🧠 Example Prediction
 
-![Prediction Example](assets/example_output.png) <!-- Заміни шлях, якщо потрібно -->
+![Prediction Example](assets/example_output.png)
 
 ---
 
@@ -25,7 +25,16 @@
 ```bash
 git clone https://github.com/dmytrogetsko/cnn-captcha-recognition
 cd cnn-captcha-recognition
+``` 
+
+### 2. Download CAPTCHAs dataset
+
+
+```bash
+git clone https://www.researchgate.net/publication/248380891_captcha_dataset/link/00b4951ddc422dddad000000/download?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIn19
+cd cnn-captcha-recognition
 ```
+
 
 ### 2. (Optional) Create virtual environment
 

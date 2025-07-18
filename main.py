@@ -5,6 +5,8 @@ from torch.utils.data import DataLoader, random_split
 from core.dataset import CaptchaDataset
 from core.model import CaptchaCNN
 from utils.validation import visualize_predictions
+import os
+import runpy
 
 ### Train ###
 
@@ -17,6 +19,14 @@ transform = transforms.Compose([
     transforms.Resize((64, 128)),
     transforms.ToTensor()
 ])
+
+samples_dir = './samples'
+
+if not os.path.exists(samples_dir):
+    os.makedirs(samples_dir)
+
+if not os.listdir(samples_dir):
+    runpy.run_path('bin/install.py')
 
 full_dataset = CaptchaDataset('./samples', captcha_length, transform=transform)
 
